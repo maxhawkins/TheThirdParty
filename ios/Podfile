@@ -1,0 +1,46 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'ThirdParty' do
+
+  pod 'React', :path => '../node_modules/react-native', :subspecs => [
+    'Core',
+    'CxxBridge',
+    'RCTActionSheet',
+    'RCTText',
+    'RCTNetwork',
+    'RCTWebSocket',
+    'RCTAnimation',
+    'RCTGeolocation',
+    'RCTImage',
+    'RCTLinkingIOS',
+    'RCTPushNotification',
+    'DevSupport',
+  ]
+  # Explicitly include Yoga if you are using RN >= 0.42.0
+  pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
+
+  # Third party deps podspec link
+  pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
+  pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/GLog.podspec'
+  pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
+
+  pod 'Bolts'
+  pod 'FBSDKCoreKit'
+  pod 'FBSDKLoginKit'
+  pod 'FBSDKShareKit'
+
+  pod 'Fabric', '~> 1.7.2'
+  pod 'Crashlytics', '~> 3.9.3'
+
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+
+  pod 'react-native-fast-image', :podspec => '../node_modules/react-native-fast-image/react-native-fast-image.podspec'
+  pod 'CodePush', :podspec => '../node_modules/react-native-code-push/CodePush.podspec'
+  pod 'lottie-ios', :podspec => '../node_modules/lottie-ios/lottie-ios.podspec'
+  pod 'RNFirebase', :path => '../node_modules/react-native-firebase/ios'
+  pod 'lottie-react-native', :podspec => '../node_modules/lottie-react-native/lottie-react-native.podspec'
+  pod 'react-native-maps', :podspec => '../node_modules/react-native-maps/react-native-maps.podspec'
+  pod 'react-native-fbsdk', :path => '../node_modules/react-native-fbsdk/ios'
+end

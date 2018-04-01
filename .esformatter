@@ -1,0 +1,15 @@
+{
+    "plugins": [
+        "esformatter-jsx",
+        "esformatter-flow",
+        "esformatter-limit-linebreaks",
+        "esformatter-quotes",
+        "esformatter-quote-props",
+        "esformatter-remove-trailing-commas",
+        "esformatter-curly"
+    ],
+    "jsx": {
+        "JSXExpressionsSingleLine": false,
+        "attrsOnSameLineAsTag": false
+    }
+}

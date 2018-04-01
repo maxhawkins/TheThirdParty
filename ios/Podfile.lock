@@ -1,0 +1,252 @@
+PODS:
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - boost-for-react-native (1.63.0)
+  - CodePush (5.1.3):
+    - CodePush/Base64 (= 5.1.3)
+    - CodePush/Core (= 5.1.3)
+    - CodePush/JWT (= 5.1.3)
+    - CodePush/SSZipArchive (= 5.1.3)
+    - React
+  - CodePush/Base64 (5.1.3):
+    - React
+  - CodePush/Core (5.1.3):
+    - React
+  - CodePush/JWT (5.1.3):
+    - React
+  - CodePush/SSZipArchive (5.1.3):
+    - React
+  - Crashlytics (3.9.3):
+    - Fabric (~> 1.7.2)
+  - DoubleConversion (1.1.5)
+  - Fabric (1.7.6)
+  - FBSDKCoreKit (4.31.1):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.31.1):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.31.1):
+    - FBSDKCoreKit (~> 4.31.1)
+  - Firebase/Auth (4.11.0):
+    - Firebase/Core
+    - FirebaseAuth (= 4.5.0)
+  - Firebase/Core (4.11.0):
+    - FirebaseAnalytics (= 4.1.0)
+    - FirebaseCore (= 4.0.18)
+  - FirebaseAnalytics (4.1.0):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - nanopb (~> 0.3)
+  - FirebaseAuth (4.5.0):
+    - FirebaseAnalytics (~> 4.1)
+    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseCore (4.0.18):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseInstanceID (2.0.10):
+    - FirebaseCore (~> 4.0)
+  - FLAnimatedImage (1.0.12)
+  - Folly (2016.09.26.00):
+    - boost-for-react-native
+    - DoubleConversion
+    - glog
+  - glog (0.3.4)
+  - GoogleToolboxForMac/DebugUtils (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - GoogleToolboxForMac/Defines (2.1.3)
+  - GoogleToolboxForMac/NSData+zlib (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - GoogleToolboxForMac/NSDictionary+URLArguments (2.1.3):
+    - GoogleToolboxForMac/DebugUtils (= 2.1.3)
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+    - GoogleToolboxForMac/NSString+URLArguments (= 2.1.3)
+  - GoogleToolboxForMac/NSString+URLArguments (2.1.3)
+  - GTMSessionFetcher/Core (1.1.14)
+  - lottie-ios (2.5.0)
+  - lottie-react-native (2.2.7):
+    - lottie-ios
+    - React
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - React (0.54.2):
+    - React/Core (= 0.54.2)
+  - react-native-fast-image (4.0.0):
+    - FLAnimatedImage
+    - React
+    - SDWebImage/Core
+    - SDWebImage/GIF
+  - react-native-fbsdk (0.7.0):
+    - React
+    - react-native-fbsdk/Core (= 0.7.0)
+    - react-native-fbsdk/Login (= 0.7.0)
+    - react-native-fbsdk/Share (= 0.7.0)
+  - react-native-fbsdk/Core (0.7.0):
+    - FBSDKCoreKit
+    - React
+  - react-native-fbsdk/Login (0.7.0):
+    - FBSDKLoginKit
+    - React
+  - react-native-fbsdk/Share (0.7.0):
+    - FBSDKShareKit
+    - React
+  - react-native-maps (0.20.1):
+    - React
+  - React/Core (0.54.2):
+    - yoga (= 0.54.2.React)
+  - React/CxxBridge (0.54.2):
+    - Folly (= 2016.09.26.00)
+    - React/Core
+    - React/cxxreact
+  - React/cxxreact (0.54.2):
+    - boost-for-react-native (= 1.63.0)
+    - Folly (= 2016.09.26.00)
+    - React/jschelpers
+    - React/jsinspector
+  - React/DevSupport (0.54.2):
+    - React/Core
+    - React/RCTWebSocket
+  - React/fishhook (0.54.2)
+  - React/jschelpers (0.54.2):
+    - Folly (= 2016.09.26.00)
+    - React/PrivateDatabase
+  - React/jsinspector (0.54.2)
+  - React/PrivateDatabase (0.54.2)
+  - React/RCTActionSheet (0.54.2):
+    - React/Core
+  - React/RCTAnimation (0.54.2):
+    - React/Core
+  - React/RCTBlob (0.54.2):
+    - React/Core
+  - React/RCTGeolocation (0.54.2):
+    - React/Core
+  - React/RCTImage (0.54.2):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTLinkingIOS (0.54.2):
+    - React/Core
+  - React/RCTNetwork (0.54.2):
+    - React/Core
+  - React/RCTPushNotification (0.54.2):
+    - React/Core
+  - React/RCTText (0.54.2):
+    - React/Core
+  - React/RCTWebSocket (0.54.2):
+    - React/Core
+    - React/fishhook
+    - React/RCTBlob
+  - RNFirebase (3.3.1):
+    - React
+  - SDWebImage/Core (4.3.3)
+  - SDWebImage/GIF (4.3.3):
+    - FLAnimatedImage (~> 1.0)
+    - SDWebImage/Core
+  - yoga (0.54.2.React)
+
+DEPENDENCIES:
+  - Bolts
+  - CodePush (from `../node_modules/react-native-code-push/CodePush.podspec`)
+  - Crashlytics (~> 3.9.3)
+  - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
+  - Fabric (~> 1.7.2)
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - FBSDKShareKit
+  - Firebase/Auth
+  - Firebase/Core
+  - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
+  - glog (from `../node_modules/react-native/third-party-podspecs/GLog.podspec`)
+  - lottie-ios (from `../node_modules/lottie-ios/lottie-ios.podspec`)
+  - lottie-react-native (from `../node_modules/lottie-react-native/lottie-react-native.podspec`)
+  - react-native-fast-image (from `../node_modules/react-native-fast-image/react-native-fast-image.podspec`)
+  - react-native-fbsdk (from `../node_modules/react-native-fbsdk/ios`)
+  - react-native-maps (from `../node_modules/react-native-maps/react-native-maps.podspec`)
+  - React/Core (from `../node_modules/react-native`)
+  - React/CxxBridge (from `../node_modules/react-native`)
+  - React/DevSupport (from `../node_modules/react-native`)
+  - React/RCTActionSheet (from `../node_modules/react-native`)
+  - React/RCTAnimation (from `../node_modules/react-native`)
+  - React/RCTGeolocation (from `../node_modules/react-native`)
+  - React/RCTImage (from `../node_modules/react-native`)
+  - React/RCTLinkingIOS (from `../node_modules/react-native`)
+  - React/RCTNetwork (from `../node_modules/react-native`)
+  - React/RCTPushNotification (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
+  - RNFirebase (from `../node_modules/react-native-firebase/ios`)
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+
+EXTERNAL SOURCES:
+  CodePush:
+    :podspec: ../node_modules/react-native-code-push/CodePush.podspec
+  DoubleConversion:
+    :podspec: ../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec
+  Folly:
+    :podspec: ../node_modules/react-native/third-party-podspecs/Folly.podspec
+  glog:
+    :podspec: ../node_modules/react-native/third-party-podspecs/GLog.podspec
+  lottie-ios:
+    :podspec: ../node_modules/lottie-ios/lottie-ios.podspec
+  lottie-react-native:
+    :podspec: ../node_modules/lottie-react-native/lottie-react-native.podspec
+  React:
+    :path: ../node_modules/react-native
+  react-native-fast-image:
+    :podspec: ../node_modules/react-native-fast-image/react-native-fast-image.podspec
+  react-native-fbsdk:
+    :path: ../node_modules/react-native-fbsdk/ios
+  react-native-maps:
+    :podspec: ../node_modules/react-native-maps/react-native-maps.podspec
+  RNFirebase:
+    :path: ../node_modules/react-native-firebase/ios
+  yoga:
+    :path: ../node_modules/react-native/ReactCommon/yoga
+
+CHECKOUT OPTIONS:
+  react-native-fast-image:
+    :commit: 3bcb02219c75195fc69cf6cdff9faebedae9338e
+    :git: https://github.com/DylanVann/react-native-fast-image.git
+  react-native-maps:
+    :commit: 43f46991f4a5b0dc9ddba9214ab17e0230b9321a
+    :git: https://github.com/airbnb/react-native-maps.git
+
+SPEC CHECKSUMS:
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
+  CodePush: ffe876b57db57e0295653d69aa1653b0278b43ad
+  Crashlytics: dbb07d01876c171c5ccbdf7826410380189e452c
+  DoubleConversion: ebb6747c5b66026ad4f97b789c3ceac6f18e57a6
+  Fabric: f8d42c893bb187326a7968b62abe55c36a987a46
+  FBSDKCoreKit: e08ccfcefa7bc1347a07c276dac9bf6c7fe57024
+  FBSDKLoginKit: 99797ac39252fef6f72600b886f6ee60b4b29cab
+  FBSDKShareKit: e640c41c9fcd61929eeb3d0c21ad335103e7cb62
+  Firebase: cc13dfab1038c8b45d7903e01fc690451d6d0b24
+  FirebaseAnalytics: 3dfae28d4a5e06f86c4fae830efc2ad3fadb19bc
+  FirebaseAuth: 147bf340a0706b44ca1753d6b41ebafd9687cfe6
+  FirebaseCore: b981f47e5254cbcfdeb483355300d743f6fcab2c
+  FirebaseInstanceID: 8d20d890d65c917f9f7d9950b6e10a760ad34321
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  Folly: 211775e49d8da0ca658aebc8eab89d642935755c
+  glog: 1de0bb937dccdc981596d3b5825ebfb765017ded
+  GoogleToolboxForMac: 2501e2ad72a52eb3dfe7bd9aee7dad11b858bd20
+  GTMSessionFetcher: 390ea358e5a0d0133153806f744662dad933d06b
+  lottie-ios: d699fdee68d7b63e721d949388b015fef1aaa4ac
+  lottie-react-native: 7473cccb5efa322498c850bffc60acc9dc0c5846
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  React: c237e42de9c70e5cac6eeb52b4cfd3a0910c1f00
+  react-native-fast-image: a514233055902ef087db8d169402fc7f24ea9667
+  react-native-fbsdk: 8a738a123494ae9ba69482a5a8e88aa2108b8245
+  react-native-maps: 6ab4fa4f78e88824ec300de0eb412f0556b6a84b
+  RNFirebase: dff98ceb517ef0b5e1858deb59eca186acc6edb0
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  yoga: 55da126afc384965b96bff46652464373b330add
+
+PODFILE CHECKSUM: f8afe8ef78ca3d04c52e110a2e999f6512f960aa
+
+COCOAPODS: 1.4.0
